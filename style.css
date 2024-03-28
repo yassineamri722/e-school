@@ -1,0 +1,53 @@
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('https://innovationschool.so/wp-content/uploads/2023/05/ischoollogo-05.png'); /* Using absolute URL */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://as1.ftcdn.net/v2/jpg/06/40/14/18/1000_F_640141849_L37eqohbuVMoGNDYv60ACONpf5pV0Fg8.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+nav {
+    background-color: #f4f4f4; 
+}
+
+nav ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+nav ul li {
+    display: inline-block; 
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333; 
+    padding: 10px; 
+}
+nav ul {
+    float:right; /* Alignez la liste à droite */
+}
+nav ul {
+    background-color: antiquewhite;
+}
+  
+

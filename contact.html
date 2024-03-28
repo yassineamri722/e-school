@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - iSchoolTech</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body  >
+    <div class="logo"></div>
+    <nav>
+        <ul>
+            <li><a href="ischool.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">SERVICE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav> 
+
+    <main>
+        <section>
+            <h2>Contact Information</h2>
+            <p>Please feel free to contact iSchoolTech using the information below:</p>
+            <ul>
+                <li>Email: info@ischooltech.com</li>
+                <li>Phone: +21674652354</li>
+                <li>Address: 123 manouba, Tunis, Tunisie</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Form</h2>
+            <form action="contact_form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 iSchoolTech | All rights reserved.</p>
+    </footer>
+</body>
+</html>
